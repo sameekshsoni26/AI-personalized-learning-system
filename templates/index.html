@@ -1,0 +1,32 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>AI Personalized Learning System</title>
+    <link rel="stylesheet" href="/static/styles.css">
+</head>
+<body>
+    <h1>Upload a YouTube Video</h1>
+    <form method="post">
+        <input name="video_url" placeholder="Paste YouTube URL" />
+        <button type="submit">Download & Process</button>
+    </form>
+
+    <h2>Ask a Question</h2>
+    <form method="post">
+        <input name="student_question" placeholder="Ask a question..." />
+        <button type="submit">Ask Chatbot</button>
+    </form>
+    <p>{{ answer }}</p>
+
+    <h2>Generate Quiz from Video</h2>
+    <form method="post">
+        <input type="hidden" name="generate_questions" value="true" />
+        <button type="submit">Generate Questions</button>
+    </form>
+    <ul>
+        {% for q in questions %}
+        <li>{{ q }}</li>
+        {% endfor %}
+    </ul>
+</body>
+</html>
