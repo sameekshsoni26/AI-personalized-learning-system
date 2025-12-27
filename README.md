@@ -1,1 +1,2 @@
 # AI-personalized-learning-system
+AI-Based Personalized Learning System is an intelligent educational platform designed for Class 10 and 12 students to support exam-focused study. The system allows students to search questions, access short and clear theory explanations, and practice important exam-oriented questions tailored to their learning needs. It also features an integrated AI chatbot that provides instant, interactive support, helping students clarify doubts, get personalized guidance, and learn more effectively anytime.
